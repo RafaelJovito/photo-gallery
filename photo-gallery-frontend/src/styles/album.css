@@ -1,0 +1,189 @@
+/* ======================
+   LAYOUT GERAL
+====================== */
+.page-albums {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ======================
+   HEADER
+====================== */
+.albums-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.albums-header h1 {
+  font-size: 22px;
+}
+
+.link {
+  background: none;
+  border: none;
+  color: #1a4d8f;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* ======================
+   INFO DO ÁLBUM
+====================== */
+.album-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.album-card {
+    margin: 20px;
+    width: 200px;
+}
+
+.album-info h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.album-info p {
+  margin-top: 4px;
+  color: #555;
+}
+
+/* ======================
+   VIEW MODE
+====================== */
+.album-view {
+  font-size: 14px;
+}
+
+.album-view .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* ======================
+   TABELA
+====================== */
+.album-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.album-table thead {
+  background: #1a4d8f;
+  color: white;
+}
+
+.album-table th,
+.album-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.album-table td:last-child {
+  text-align: center;
+}
+
+/* ======================
+   COR PREDOMINANTE
+====================== */
+.color-box {
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+}
+
+/* ======================
+   AÇÕES
+====================== */
+.album-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.album-thumb {
+  width: 100%;
+  height: 140px;
+  background: #e0e0e0;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.album-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer.album-actions.footer {
+    width: 40%;
+}
+form.form {
+    display: flex;
+}
+
+.thumb-placeholder {
+  font-size: 13px;
+  color: #777;
+}
+
+/* ======================
+   BOTÕES
+====================== */
+.button-primary {
+  background: #1a4d8f;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  opacity: 0.9;
+}
+
+.button-danger {
+  background: #d32f2f;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-danger:hover {
+  opacity: 0.9;
+}
+
+section.albums-grid {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
